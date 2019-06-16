@@ -29,15 +29,3 @@ fepcdat <- mutate(epcdata,Date_Time = dmy_hms(paste(Date,Time)))
 png(filename = "plot2.png",width = 480, height = 480)
 with(fepcdat,plot(Date_Time, Global_active_power,xlab = "",ylab = "Global Active Power (kilowatts)",type = "l"))
 dev.off()
-
-
-
-
-    
-
-
-
-
-
-
-

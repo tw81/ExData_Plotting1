@@ -40,15 +40,3 @@ legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
 # fourth plot
 with(fepcdat,plot(Date_Time, Global_reactive_power,xlab = "datetime",type = "l"))
 dev.off()
-
-
-
-
-    
-
-
-
-
-
-
-
