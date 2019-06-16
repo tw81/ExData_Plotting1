@@ -1,6 +1,6 @@
 ## Exploratory data analysis
 ## Download the data set, then unzip it and read it in, and subset just the dates 2007-02-01 and 2007-02-02
-## create a date_time variable and then plot a line graph
+## create a date_time variable and then plot the four required graphs
 
 ## import the libraries needed
 library(dplyr)
